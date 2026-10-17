@@ -1,0 +1,21 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+.DS_Store
+Thumbs.db
+xampp-deploy/api/config.local.php
+xampp-deploy/site/api/config.local.php
+# Local database exports and backups; only the reviewed installation schemas are tracked.
+*.sql
+!xampp-deploy/database.sql
+!xampp-deploy/repair-demo-seed-utf8.sql
+*.sql.gz
+*.sqlite
+*.db
